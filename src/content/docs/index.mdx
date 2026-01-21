@@ -1,0 +1,48 @@
+---
+title: Starlight GitHub Pages Template
+description: A batteries-included template for documentation sites with Astro Starlight
+template: splash
+hero:
+  title: Starlight GitHub Pages Template
+  tagline: Documentation sites with CI/CD, Docker, and zero-config deployment
+  actions:
+    - text: Get Started
+      link: /getting-started/quickstart/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/your-username/your-repo-name
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What's Included
+
+<CardGrid stagger>
+  <Card title="Zero Config" icon="rocket">
+    Clone, install, and start writing docs immediately.
+  </Card>
+  <Card title="GitHub Actions CI/CD" icon="github">
+    Auto-deploy to GitHub Pages on push to main.
+  </Card>
+  <Card title="Security Scanning" icon="approve-check">
+    Pinned dependencies with `npm audit` in CI.
+  </Card>
+  <Card title="Quality Gates" icon="list-format">
+    Prettier, markdownlint, TypeScript, and git hooks.
+  </Card>
+</CardGrid>
+
+## Quick Start
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git my-docs
+cd my-docs
+make init   # Configure your project
+make dev    # Start development server
+```
+
+## This Content is Replaceable
+
+Everything in `src/content/docs/` is template documentation. Once you're familiar with how things work, delete these files and add your own content.

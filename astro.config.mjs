@@ -5,8 +5,8 @@ import starlight from '@astrojs/starlight';
 // GitHub Pages configuration
 // For user/org sites (username.github.io): site = 'https://username.github.io', base = '/'
 // For project sites: site = 'https://username.github.io', base = '/repo-name'
-const GITHUB_USER = 'your-username'; // TODO: Update with your GitHub username or org
-const REPO_NAME = 'your-repo-name'; // TODO: Update with your repository name
+const GITHUB_USER = 'stuffbucket';
+const REPO_NAME = 'pages-starlight';
 const IS_USER_SITE = false; // Set to true if this is username.github.io
 
 export default defineConfig({

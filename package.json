@@ -19,8 +19,8 @@
     "init": "node scripts/init.mjs"
   },
   "dependencies": {
-    "@astrojs/starlight": "0.37.3",
-    "astro": "5.16.11",
+    "@astrojs/starlight": "0.37.4",
+    "astro": "5.16.15",
     "sharp": "0.34.5"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "markdownlint-cli": "0.47.0",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3"
   },
